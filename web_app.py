@@ -93,4 +93,4 @@ with st.container():
     with right_column:
         st.empty()
 with st.container():
-    st.write("That's all for now :) Chaithra")
+    st.write("That's all for now :)")
