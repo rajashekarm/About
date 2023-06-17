@@ -96,4 +96,4 @@ with st.container():
     st.write("
 
 
-That's all for now :)")
+   That's all for now :)")
