@@ -26,7 +26,7 @@ local_css("style.css")
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("Hi!, I am Raj :wave:")
+    st.subheader("Hey!, I am Raj :wave:")
     st.title("Aspiring Python devoloper")
     st.write(
 "As a third-year electrical and electronics engineering student, I am driven to explore the world of software development. While my electrical core provides me with a strong foundation, I am also learning data structures and algorithms (DSA) using Python to further enhance my skills in the software field. "
@@ -34,7 +34,7 @@ with st.container():
 " With a hardworking and productive attitude, I am constantly seeking opportunities to learn and grow. As the chairperson of a student club, I have gained invaluable experience in leadership, teamwork, and communication - skills that I believe will be essential in any future role. "
 
     )
-    st.write("[know More about me>](https://www.linkedin.com/in/rajashekar-m-1739501b1)")
+    st.write("[Know more about me>](https://www.linkedin.com/in/rajashekar-m-1739501b1)")
 
 # ---- WHAT I DO ----
 with st.container():
@@ -45,7 +45,7 @@ with st.container():
         st.write("##")
         st.write(
             """
-           will add description soon.
+           
             """
         )
         st.write("[LinkedIn >](https://www.linkedin.com/in/rajashekar-m-1739501b1/)")
@@ -63,7 +63,7 @@ with st.container():
         st.subheader("empty rn")
         st.write(
             """
-           can write something
+         1. Adanced Battery Management and Diagnostic System for Smart Grid Infrastructure
             """
         )
        
