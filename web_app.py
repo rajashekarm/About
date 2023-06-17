@@ -49,8 +49,8 @@ with st.container():
             """
         )
         st.write("[LinkedIn >](https://www.linkedin.com/in/rajashekar-m-1739501b1/)")
-    with right_column:
-        st_lottie(lottie_coding, height=300, key="coding")
+
+
 
 # ---- PROJECTS ----
 with st.container():
