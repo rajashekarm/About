@@ -62,7 +62,7 @@ with st.container():
     image_column, text_column = st.columns((1, 2))
    
     with text_column:
-        st.subheader("empty rn")
+        st.subheader("About webpage")
         st.write(
             """
          1. Adanced Battery Management and Diagnostic System for Smart Grid Infrastructure
