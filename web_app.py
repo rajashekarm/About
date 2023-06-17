@@ -34,7 +34,7 @@ with st.container():
 " With a hardworking and productive attitude, I am constantly seeking opportunities to learn and grow. As the chairperson of a student club, I have gained invaluable experience in leadership, teamwork, and communication - skills that I believe will be essential in any future role. "
 
     )
-    st.write("[Learn More >](https://pythonandvba.com)")
+    st.write("[know More about me>](https://www.linkedin.com/in/rajashekar-m-1739501b1)")
 
 # ---- WHAT I DO ----
 with st.container():
