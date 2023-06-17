@@ -92,4 +92,5 @@ with st.container():
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
         st.empty()
-St.write("That's all for now :)")
+with st.container():
+    st.write("That's all for now :)")
