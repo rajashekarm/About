@@ -41,11 +41,13 @@ with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("What I do")
+        st.header("Positions of Responsibility")
         st.write("##")
         st.write(
             """
-           Nothing right now
+           1. Founding Chairperson of BMSCE IEEE SSIT
+           2. Secretary of School students union 
+           3. Member at BMSCE Upagraha and Bullz EV
             """
         )
         st.write("[LinkedIn >](https://www.linkedin.com/in/rajashekar-m-1739501b1/)")
