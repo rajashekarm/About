@@ -26,7 +26,7 @@ local_css("style.css")
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("Hey!, I am Raj :wave:")
+    st.subheader("Hey!, I am Raj🙌 :wave:")
     st.title("Aspiring Python devoloper")
     st.write(
 "As a third-year electrical and electronics engineering student, I am driven to explore the world of software development. While my electrical core provides me with a strong foundation, I am also learning data structures and algorithms (DSA) using Python to further enhance my skills in the software field. "
