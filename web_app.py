@@ -45,21 +45,17 @@ with st.container():
         st.write("##")
         st.write(
             """
-           1. Founding Chairperson- IEEE Society on Social Implications of Technology, BMSCE
-           2. Global SAC Volunteer- IEEE Society on Social Implications of Technology
-           3. Secretary of School union while in 7th class(2014-15). 
-           4. Member at BMSCE Upagraha and Bullz EV
-           5. Co-ordinator in PhaseShift- BMSCE's annual tech symposium.
-1.Global SAC Volunteer- IEEE Society on Social Implications of Technology
- Responsible for the smooth conduction of events
-2.Secretary of School union while in 7th class(2014-15).
- Won my first ever election and was responsible to arrange School assembly everyday
-3.Co-ordinator in PhaseShift- BMSCE's annual tech symposium.
- Conducted an exciting event called 'Big Daddy', where each and every participant had fun
-4.Member of Power sub-system at Upagraha- The Satellite club of BMSCE
- Responsible for the battery charging control circuit in the sub-system
-5.Member at EV Bullz Racing- Formula student club of BMSCE
- Responsible to build the Battery Management System
+         
+    1.Global SAC Volunteer- IEEE Society on Social Implications of Technology
+         Responsible for the smooth conduction of events
+    2.Secretary of School union while in 7th class(2014-15).
+         Won my first ever election and was responsible to arrange School assembly everyday
+    3.Co-ordinator in PhaseShift- BMSCE's annual tech symposium.
+         Conducted an exciting event called 'Big Daddy', where each and every participant had fun
+    4.Member of Power sub-system at Upagraha- The Satellite club of BMSCE
+         Responsible for the battery charging control circuit in the sub-system
+    5.Member at EV Bullz Racing- Formula student club of BMSCE
+         Responsible to build the Battery Management System
             """
         )
     
