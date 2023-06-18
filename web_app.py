@@ -27,7 +27,7 @@ local_css("style.css")
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("Hey!, I am Raj:wave: 🙌")
-    st.title("Aspiring Python devoloper")
+    st.title("An Aspiring Python devoloper")
     st.write(
 "As a third-year electrical and electronics engineering student, I am driven to explore the world of software development. While my electrical core provides me with a strong foundation, I am also learning data structures and algorithms (DSA) using Python to further enhance my skills in the software field. "
 
@@ -45,7 +45,8 @@ with st.container():
         st.write("##")
         st.write(
             """
-         
+    Founding Chairperson- IEEE Society on Social Implications of Technology, BMSCE (2022 Nov-'23 March)
+            
     1.Global SAC Volunteer- IEEE Society on Social Implications of Technology
          Responsible for the smooth conduction of events.
          
@@ -77,7 +78,13 @@ with st.container():
         st.subheader("Webpage")
         st.write(
             """
-         1. Adanced Battery Management and Diagnostic System for Smart Grid Infrastructure
+        1.Battery management and diagnostic system
+            Conducted extensive research on state of charge (SoC) and health(SoH), cell balancing, and other relevant topics
+            Working on Active cell balancing circuit for BMS
+            
+        2.Arduino based Morse Code Generator for Encoded communication
+            A mini project to encode any character in two different durations of signals called Dots and Dashes which can be used in
+            Defence and other sectors
             """
         )
        
@@ -91,7 +98,7 @@ with st.container():
 
     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
     contact_form = """
-    <form action="https://formsubmit.co/YOUR@MAIL.COM" method="POST">
+    <form action="https://formsubmit.co/" method="rajashekarm2003@gmail.com">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
@@ -104,5 +111,5 @@ with st.container():
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
         st.empty()
-with st.container():
-    st.write("That's all for now :)")
+    with st.container():
+        st.write("That's all for now :)")
