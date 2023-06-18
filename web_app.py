@@ -48,19 +48,19 @@ with st.container():
     Founding Chairperson- IEEE Society on Social Implications of Technology, BMSCE (2022 Nov-'23 March)
             
     1.Global SAC Volunteer- IEEE Society on Social Implications of Technology
-        * Responsible for the smooth conduction of events.
+     * Responsible for the smooth conduction of events.
          
     2.Secretary of School union while in 7th class(2014-15).
-        * Won my first ever election and was responsible to arrange School assembly everyday.
+     * Won my first ever election and was responsible to arrange School assembly everyday.
          
     3.Co-ordinator in PhaseShift- BMSCE's annual tech symposium.
-        *Conducted an exciting event called 'Big Daddy', where each and every participant had fun.
+     *Conducted an exciting event called 'Big Daddy', where each and every participant had fun.
          
     4.Member of Power sub-system at Upagraha- The Satellite club of BMSCE
-        *Responsible for the battery charging control circuit in the sub-system.
+     *Responsible for the battery charging control circuit in the sub-system.
          
     5.Member at EV Bullz Racing- Formula student club of BMSCE
-        *Responsible to build the Battery Management System.
+     *Responsible to build the Battery Management System.
          
             """
         )
@@ -83,7 +83,7 @@ with st.container():
             Working on Active cell balancing circuit for BMS
             
         2.Arduino based Morse Code Generator for Encoded communication
-          *A mini project to encode any character in two different durations of signals called Dots and Dashes which can be used in
+          * A mini project to encode any character in two different durations of signals called Dots and Dashes which can be used in
             Defence and other sectors
             """
         )
