@@ -54,13 +54,13 @@ with st.container():
      * Won my first ever election and was responsible to arrange School assembly everyday.
          
     3.Co-ordinator in PhaseShift- BMSCE's annual tech symposium.
-     *Conducted an exciting event called 'Big Daddy', where each and every participant had fun.
+     * Conducted an exciting event called 'Big Daddy', where each and every participant had fun.
          
     4.Member of Power sub-system at Upagraha- The Satellite club of BMSCE
-     *Responsible for the battery charging control circuit in the sub-system.
+    * Responsible for the battery charging control circuit in the sub-system.
          
     5.Member at EV Bullz Racing- Formula student club of BMSCE
-     *Responsible to build the Battery Management System.
+     * Responsible to build the Battery Management System.
          
             """
         )
