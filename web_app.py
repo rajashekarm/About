@@ -75,7 +75,6 @@ with st.container():
     image_column, text_column = st.columns((1, 2))
    
     with text_column:
-        st.subheader("Webpage")
         st.write(
             """
         1.Battery management and diagnostic system
