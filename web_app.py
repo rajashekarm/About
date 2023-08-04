@@ -50,8 +50,8 @@ with st.container():
     1.Global SAC Volunteer- IEEE Society on Social Implications of Technology
      * Responsible for the smooth conduction of events.
          
-    2.Secretary of School union while in 7th class(2014-15).
-     * Won my first ever election and was responsible to arrange School assembly everyday.
+    2.Secretary of School Union while in 7th class(2014-15).
+     * Won my first ever election and was responsible for arranging School assembly every day.
          
     3.Co-ordinator in PhaseShift- BMSCE's annual tech symposium.
      * Conducted an exciting event called 'Big Daddy', where each and every participant had fun.
@@ -60,7 +60,7 @@ with st.container():
     * Responsible for the battery charging control circuit in the sub-system.
          
     5.Member at EV Bullz Racing- Formula student club of BMSCE
-     * Responsible to build the Battery Management System.
+     * Responsible for building the Battery Management System.
          
             """
         )
@@ -83,7 +83,7 @@ with st.container():
             
         2.Arduino based Morse Code Generator for Encoded communication
           * A mini project to encode any character in two different durations of signals called Dots and Dashes which can be used in
-            Defence and other sectors
+            Defense and other sectors
             """
         )
        
@@ -97,7 +97,7 @@ with st.container():
 
     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
     contact_form = """
-    <form action="https://formsubmit.co/" method="rajashekarm2003@gmail.com">
+    <form action="https://formsubmit.co/" method=" rajashekarm2003@gmail.com ">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
