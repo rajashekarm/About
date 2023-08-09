@@ -111,6 +111,8 @@ with st.container():
     with right_column:
         st.empty()
     with st.container():
-        st.write("[Insta>](https://www.instagram.com/its_rajshekar_m/)")
+        st.write("
+        [Insta>](https://www.instagram.com/its_rajshekar_m/)
+                 ")
         st.write("That's all for now :)")
 
