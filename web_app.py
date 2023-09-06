@@ -72,7 +72,7 @@ with st.container():
             """
         )
 with right_column:
-    st_lottie(url_json, height = 600, width = 800)
+    st_lottie(url_json, height = 600, width = 700)
 
 
 # ---- PROJECTS ----
