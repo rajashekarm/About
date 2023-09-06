@@ -9,7 +9,7 @@ st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
 
 url = requests.get(
-    "https://assets2.lottiefiles.com/packages/lf20_mDnmhAgZkb.json")
+    "https://lottie.host/5e3a65e8-9118-4eb8-9a09-4e211003a6b3/C83zLG4OD1.json")
 # Creating a blank dictionary to store JSON file,
 # as their structure is similar to Python Dictionary
 url_json = dict()
@@ -18,7 +18,8 @@ if url.status_code == 200:
     url_json = url.json()
 else:
     print("Error in the URL")
-st_lottie(https://lottie.host/ef1673a7-c68f-4430-ad00-61faa0fe6ea4/aI8qm3tbW5.lottie)
+st_lottie(url_json)
+
 
 # Use local CSS
 def local_css(file_name):
