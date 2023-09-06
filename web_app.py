@@ -18,7 +18,7 @@ if url.status_code == 200:
     url_json = url.json()
 else:
     print("Error in the URL")
-st_lottie(url_json)
+
 
 
 # Use local CSS
@@ -41,7 +41,7 @@ with st.container():
 
     )
     st.write("[LinkedIn>](https://www.linkedin.com/in/rajashekar-m-1739501b1)")
-
+st_lottie(url_json)
 # ---- WHAT I DO ----
 with st.container():
     st.write("---")
