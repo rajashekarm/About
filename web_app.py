@@ -13,7 +13,7 @@ def load_lottieurl(url):
     if r.status_code != 200:
         return None
     return r.json()
-
+load lottieurl(https://asset-cdn.lottiefiles)
 
 # Use local CSS
 def local_css(file_name):
