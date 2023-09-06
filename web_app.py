@@ -7,6 +7,7 @@ from PIL import Image
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
+dotlottie_file_path = 'https://lottie.host/5bbd35b9-6047-44d5-b2cc-bd4da907da0a/xUb5gtrDEa.lottie'
 
 url = requests.get(
     "https://lottie.host/5e3a65e8-9118-4eb8-9a09-4e211003a6b3/C83zLG4OD1.json")
@@ -71,6 +72,7 @@ with st.container():
             """
         )
     
+st_lottie(dotlottie_file_path)
 
 
 # ---- PROJECTS ----
