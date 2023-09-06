@@ -85,7 +85,14 @@ with st.container():
     with text_column:
         st.write(
             """
-        1.Battery management and diagnostic system
+        1.[Cricket Outcome Predictor: Unveiling Victory with Machine Learning">](https://victory-predictor-raj.streamlit.app) 
+            * Developed a machine learning-based Victory Predictor application for IPL matches.
+            * Utilized Python, Streamlit, and Scikit-Learn for project development.
+            * Predicted winning probabilities for IPL teams using logistic regression.
+            * Designed an interactive and visually appealing user interface.
+            * Conducted data preprocessing and deployed the application successfully.
+
+        2.Battery management and diagnostic system
           * Conducted extensive research on state of charge (SoC) and health(SoH), cell balancing, and other relevant topics
             Working on Active cell balancing circuit for BMS
             
