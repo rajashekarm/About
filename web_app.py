@@ -5,7 +5,7 @@ from PIL import Image
 
 #function to get online json animation
 url = requests.get(
-	"https://assets2.lottiefiles.com/packages/lf20_mDnmhAgZkb.json")
+	"https://lottie.host/5e3a65e8-9118-4eb8-9a09-4e211003a6b3/C83zLG4OD1.json")
 # Creating a blank dictionary to store JSON file, as their structure is similar to Python Dictionary
 url_json = dict()
 
@@ -13,7 +13,6 @@ if url.status_code == 200:
 	url_json = url.json()
 else:
 	print("Error in the URL")
-st_lottie(url_json)
 
         
 
@@ -81,7 +80,8 @@ with st.container():
             """
         )
 with right_column:
-    st_lottie("https://lottie.host/5e3a65e8-9118-4eb8-9a09-4e211003a6b3/C83zLG4OD1.json", height = 600, width = 700)
+    	st_lottie(url_json)
+
 
 
 # ---- PROJECTS ----
