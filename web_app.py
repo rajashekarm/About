@@ -76,7 +76,7 @@ with st.container():
             """
         )
 with right_column:
-    load_lottie_url("https://lottie.host/5e3a65e8-9118-4eb8-9a09-4e211003a6b3/C83zLG4OD1.json", height = 600, width = 700)
+    st_lottie("https://lottie.host/5e3a65e8-9118-4eb8-9a09-4e211003a6b3/C83zLG4OD1.json", height = 600, width = 700)
 
 
 # ---- PROJECTS ----
