@@ -3,6 +3,14 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 from PIL import Image
 
+#function to get online json animation
+def load_lottie_url( url: str):
+    r = requests.get(url)
+    if url.status_code == 200:
+        url_json = url.json()
+    else:
+        print("Error in the URL")
+        
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 
@@ -10,15 +18,6 @@ st.set_page_config(page_title="Raj Webpage", page_icon=":tada:", layout="wide")
 
 #importing animations without json
 dotlottie_file_path = 'https://lottie.host/5bbd35b9-6047-44d5-b2cc-bd4da907da0a/xUb5gtrDEa.lottie'
-
-#importing animations with json
-url = requests.get(
-    "https://lottie.host/5e3a65e8-9118-4eb8-9a09-4e211003a6b3/C83zLG4OD1.json")
-
-if url.status_code == 200:
-    url_json = url.json()
-else:
-    print("Error in the URL")
 
 
 
@@ -77,7 +76,7 @@ with st.container():
             """
         )
 with right_column:
-    st_lottie(url_json, height = 600, width = 700)
+    load_lottie_url("https://lottie.host/5e3a65e8-9118-4eb8-9a09-4e211003a6b3/C83zLG4OD1.json", height = 600, width = 700)
 
 
 # ---- PROJECTS ----
