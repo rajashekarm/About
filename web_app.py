@@ -4,12 +4,17 @@ from streamlit_lottie import st_lottie
 from PIL import Image
 
 #function to get online json animation
-def load_lottie_url( url: str):
-    r = requests.get(url)
-    if url.status_code == 200:
-        url_json = url.json()
-    else:
-        print("Error in the URL")
+url = requests.get(
+	"https://assets2.lottiefiles.com/packages/lf20_mDnmhAgZkb.json")
+# Creating a blank dictionary to store JSON file, as their structure is similar to Python Dictionary
+url_json = dict()
+
+if url.status_code == 200:
+	url_json = url.json()
+else:
+	print("Error in the URL")
+st_lottie(url_json)
+
         
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
