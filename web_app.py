@@ -45,10 +45,10 @@ with st.container():
 
 # ---- WHAT I DO ----
 with st.container():
-st.write("---")
-st.header("Positions of Responsibility")
-st.write("##")
-st.write(
+	st.write("---")
+	st.header("Positions of Responsibility")
+	st.write("##")
+	st.write(
             """
     1. Founding Chairperson- IEEE Society on Social Implications of Technology, BMSCE (Nov 2022 - March '23)
     
