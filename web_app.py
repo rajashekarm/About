@@ -50,23 +50,29 @@ with st.container():
         st.write(
             """
     1.Founding Chairperson- IEEE Society on Social Implications of Technology, BMSCE (Nov 2022 - March '23)
+    
         * Presided a team of around more than 30 members in organizing about 12+ events in a span of 5 months.
         * Demonstrated ability to work collaboratively to lead successful events, to name a few Fauji talks and Verbattle
     
     2.Global SAC Volunteer- IEEE Society on Social Implications of Technology
-        * Responsible for the smooth conduction of events.
+    
+    * Responsible for the smooth conduction of events.
          
-    3.Secretary of School Union while in 7th class(2014-15).
-        * Won my first ever election and was responsible for arranging School assembly every day.
+    3.Secretary of School Union while in 7th class(2014-15)
+    
+    * Won my first ever election and was responsible for arranging School assembly every day.
          
-    4.Co-ordinator in PhaseShift- BMSCE's annual tech symposium.
-        * Conducted an exciting event called 'Big Daddy', where each and every participant had fun.
+    4.Co-ordinator in PhaseShift- BMSCE's annual tech symposium
+    
+    * Conducted an exciting event called 'Big Daddy', where each and every participant had fun.
          
     5.Member of Power sub-system at Upagraha- The Satellite club of BMSCE
-        * Responsible for the battery charging control circuit in the sub-system.
+    
+    * Responsible for the battery charging control circuit in the sub-system.
          
     6.Member at EV Bullz Racing- Formula student club of BMSCE
-        * Responsible for building the Battery Management System.
+    
+    * Responsible for building the Battery Management System.
          
             """
         )
