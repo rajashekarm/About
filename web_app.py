@@ -5,16 +5,16 @@ from PIL import Image
 
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
+
 st.set_page_config(page_title="Raj Webpage", page_icon=":tada:", layout="wide")
 
+#importing animations without json
 dotlottie_file_path = 'https://lottie.host/5bbd35b9-6047-44d5-b2cc-bd4da907da0a/xUb5gtrDEa.lottie'
 
+#importing animations with json
 url = requests.get(
     "https://lottie.host/5e3a65e8-9118-4eb8-9a09-4e211003a6b3/C83zLG4OD1.json")
-# Creating a blank dictionary to store JSON file,
-# as their structure is similar to Python Dictionary
-url_json = dict()
-  
+
 if url.status_code == 200:
     url_json = url.json()
 else:
@@ -92,11 +92,11 @@ with st.container():
         * Conducted data preprocessing and deployed the application successfully.
 
         2.Battery management and diagnostic system
-          * Conducted extensive research on state of charge (SoC) and health(SoH), cell balancing, and other relevant topics
+        * Conducted extensive research on state of charge (SoC) and health(SoH), cell balancing, and other relevant topics
             Working on Active cell balancing circuit for BMS
             
         2.Arduino based Morse Code Generator for Encoded communication
-          * A mini project to encode any character in two different durations of signals called Dots and Dashes which can be used in
+        * A mini project to encode any character in two different durations of signals called Dots and Dashes which can be used in
             Defense and other sectors
             """
         )
