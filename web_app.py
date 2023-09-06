@@ -18,7 +18,7 @@ if url.status_code == 200:
     url_json = url.json()
 else:
     print("Error in the URL")
-st_lottie(https://asset-cdn.lottiefiles)
+st_lottie(https://lottie.host/ef1673a7-c68f-4430-ad00-61faa0fe6ea4/aI8qm3tbW5.lottie)
 
 # Use local CSS
 def local_css(file_name):
