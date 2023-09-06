@@ -42,7 +42,7 @@ with st.container():
 
     )
     st.write("[LinkedIn>](https://www.linkedin.com/in/rajashekar-m-1739501b1)")
-st_lottie(url_json, height = 400, width = 400)
+
 # ---- WHAT I DO ----
 with st.container():
     st.write("---")
@@ -72,7 +72,7 @@ with st.container():
             """
         )
 with right_column:
-    st_lottie(dotlottie_file_path, height = 300)
+    st_lottie(url_json, height = 400, width = 400)
 
 
 # ---- PROJECTS ----
