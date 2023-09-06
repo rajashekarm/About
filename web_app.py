@@ -5,7 +5,7 @@ from PIL import Image
 
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
-st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="Raj Webpage", page_icon=":tada:", layout="wide")
 
 dotlottie_file_path = 'https://lottie.host/5bbd35b9-6047-44d5-b2cc-bd4da907da0a/xUb5gtrDEa.lottie'
 
@@ -71,8 +71,8 @@ with st.container():
          
             """
         )
-    
-st_lottie(dotlottie_file_path, height = 300)
+with right_column:
+    st_lottie(dotlottie_file_path, height = 300)
 
 
 # ---- PROJECTS ----
@@ -105,7 +105,7 @@ with st.container():
 
     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
     contact_form = """
-    <form action="https://formsubmit.co/" method=" rajashekarm2003@gmail.com ">
+    <form action="https://formsubmit.co/rajashekarm2003@gmail.com" method= "Post">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
