@@ -72,7 +72,7 @@ with st.container():
             """
         )
     
-st_lottie(dotlottie_file_path)
+st_lottie(dotlottie_file_path, height = 300)
 
 
 # ---- PROJECTS ----
