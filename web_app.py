@@ -36,10 +36,7 @@ with st.container():
     st.subheader("Hey!:wave:, I am Raj 🙌")
     st.header(" An Aspiring Python developer ")
     st.write(
-"As a third-year electrical and electronics engineering student, I am driven to explore the world of software development. While my electrical core provides me with a strong foundation, I am also learning data structures and algorithms (DSA) using Python to further enhance my skills in the software field. "
-
 " With a hardworking and productive attitude, I am constantly seeking opportunities to learn and grow. As the chairperson of a student club, I have gained invaluable experience in leadership, teamwork, and communication - skills that I believe will be essential in any future role. "
-
     )
     st.write("[LinkedIn>](https://www.linkedin.com/in/rajashekar-m-1739501b1)")
 
@@ -52,21 +49,21 @@ with st.container():
         st.write("##")
         st.write(
             """
-    Founding Chairperson- IEEE Society on Social Implications of Technology, BMSCE (2022 Nov-'23 March)
+    1.Founding Chairperson- IEEE Society on Social Implications of Technology, BMSCE (2022 Nov-'23 March)
             
-    1.Global SAC Volunteer- IEEE Society on Social Implications of Technology
+    2.Global SAC Volunteer- IEEE Society on Social Implications of Technology
      * Responsible for the smooth conduction of events.
          
-    2.Secretary of School Union while in 7th class(2014-15).
+    3.Secretary of School Union while in 7th class(2014-15).
      * Won my first ever election and was responsible for arranging School assembly every day.
          
-    3.Co-ordinator in PhaseShift- BMSCE's annual tech symposium.
+    4.Co-ordinator in PhaseShift- BMSCE's annual tech symposium.
      * Conducted an exciting event called 'Big Daddy', where each and every participant had fun.
          
-    4.Member of Power sub-system at Upagraha- The Satellite club of BMSCE
+    5.Member of Power sub-system at Upagraha- The Satellite club of BMSCE
     * Responsible for the battery charging control circuit in the sub-system.
          
-    5.Member at EV Bullz Racing- Formula student club of BMSCE
+    6.Member at EV Bullz Racing- Formula student club of BMSCE
      * Responsible for building the Battery Management System.
          
             """
