@@ -49,7 +49,7 @@ with st.container():
         st.write("##")
         st.write(
             """
-    1.Founding Chairperson- IEEE Society on Social Implications of Technology, BMSCE (Nov 2022 - March '23)
+    1. Founding Chairperson- IEEE Society on Social Implications of Technology, BMSCE (Nov 2022 - March '23)
     
         * Presided a team of around more than 30 members in organizing about 12+ events in a span of 5 months.
         * Demonstrated ability to work collaboratively to lead successful events, to name a few Fauji talks and Verbattle
