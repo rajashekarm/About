@@ -8,12 +8,17 @@ from PIL import Image
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
 
-def load_lottieurl(url):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
-load lottieurl(https://asset-cdn.lottiefiles)
+url = requests.get(
+    "https://assets2.lottiefiles.com/packages/lf20_mDnmhAgZkb.json")
+# Creating a blank dictionary to store JSON file,
+# as their structure is similar to Python Dictionary
+url_json = dict()
+  
+if url.status_code == 200:
+    url_json = url.json()
+else:
+    print("Error in the URL")
+st_lottie(https://asset-cdn.lottiefiles)
 
 # Use local CSS
 def local_css(file_name):
