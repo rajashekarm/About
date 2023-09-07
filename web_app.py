@@ -36,25 +36,25 @@ local_css("style.css")
 
 # ---- HEADER SECTION ----
 with st.container():
-col1, col2 = st.coloumns(2)
-with col1:
-    	st.subheader("Hey!:wave:, I am Raj 🙌")
-    	st.header(" An Aspiring Python developer ")
-    	st.write(
+	col1, col2 = st.coloumns(2)
+	with col1:
+    		st.subheader("Hey!:wave:, I am Raj 🙌")
+    		st.header(" An Aspiring Python developer ")
+    		st.write(
 " With a hardworking and productive attitude, I am constantly seeking opportunities to learn and grow. As the chairperson of a student club, I have gained invaluable experience in leadership, teamwork, and communication - skills that I believe will be essential in any future role. "
     )
-    	st.write("[LinkedIn>](https://www.linkedin.com/in/rajashekar-m-1739501b1)")
-with col2:
+    		st.write("[LinkedIn>](https://www.linkedin.com/in/rajashekar-m-1739501b1)")
+	with col2:
 		st_lottie(url_json)
 
 # ---- WHAT I DO ----
 with st.container():
 	col3, col4 = st.coloumns(2)
-with col1:
-	st.write("---")
-	st.header("Positions of Responsibility")
-	st.write("##")
-	st.write(
+	with col1:
+		st.write("---")
+		st.header("Positions of Responsibility")
+		st.write("##")
+		st.write(
             """
     1. Founding Chairperson- IEEE Society on Social Implications of Technology, BMSCE (Nov 2022 - March '23)
     
@@ -83,8 +83,8 @@ with col1:
          
             """
         )
-with col2:
- 	st_lottie(url_json)
+	with col2:
+ 		st_lottie(url_json)
 
 
 
