@@ -10,9 +10,9 @@ def load_lottieurl(url: str):
         return None
     return r.json()
 lottie_url_hello = "https://lottie.host/2bfe8b88-fdbb-45e6-b264-0fdb30e41f77/DZh1HyrsIZ.json"
-lottie_url_download = "https://assets4.lottiefiles.com/private_files/lf30_t26law.json"
+lottie_url_POR = "https://lottie.host/2ac8c67b-de3b-4ec1-bf19-785012bce0c4/A1sdzWFSTL.json"
 lottie_hello = load_lottieurl(lottie_url_hello)
-lottie_download = load_lottieurl(lottie_url_download)
+lottie_POR = load_lottieurl(lottie_url_POR)
 
 
 
@@ -83,7 +83,7 @@ with st.container():
             """
         )
 	with col4:
-		st.empty()
+		st_lottie(lottie_POR, height = 500)
 
 
 # ---- PROJECTS ----
