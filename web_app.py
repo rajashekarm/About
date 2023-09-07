@@ -84,8 +84,7 @@ with st.container():
             """
         )
 	with col2:
- 		st_lottie(url_json)
-
+		.empty()
 
 
 # ---- PROJECTS ----
