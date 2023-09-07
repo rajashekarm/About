@@ -45,7 +45,8 @@ with st.container():
     		st.write(
 " With a hardworking and productive attitude, I am constantly seeking opportunities to learn and grow. As the chairperson of a student club, I have gained invaluable experience in leadership, teamwork, and communication - skills that I believe will be essential in any future role. "
     )
-    		st.write("[LinkedIn>](https://www.linkedin.com/in/rajashekar-m-1739501b1)	-------		 [Insta>](https://www.instagram.com/its_rajshekar_m/)")
+    		st.write("[LinkedIn>](https://www.linkedin.com/in/rajashekar-m-1739501b1)
+                            [Insta>](https://www.instagram.com/its_rajshekar_m/)")
 	
 
 # ---- WHAT I DO ----
