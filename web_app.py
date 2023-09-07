@@ -44,7 +44,7 @@ with st.container():
     )
     		st.write("[LinkedIn>](https://www.linkedin.com/in/rajashekar-m-1739501b1)")
 	with col2:
-		st_lottie(lottie_hello, key="hello", height = 50)
+		st_lottie(lottie_hello, key="hello", height = 500)
 
 # ---- WHAT I DO ----
 with st.container():
