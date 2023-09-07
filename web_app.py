@@ -9,23 +9,19 @@ def load_lottieurl(url: str):
     if r.status_code != 200:
         return None
     return r.json()
-lottie_url_hello = "https://assets5.lottiefiles.com/packages/lf20_V9t630.json"
+lottie_url_hello = "https://lottie.host/2bfe8b88-fdbb-45e6-b264-0fdb30e41f77/DZh1HyrsIZ.json"
 lottie_url_download = "https://assets4.lottiefiles.com/private_files/lf30_t26law.json"
 lottie_hello = load_lottieurl(lottie_url_hello)
 lottie_download = load_lottieurl(lottie_url_download)
 
 
-st_lottie(lottie_hello, key="hello")
+
 
         
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 
 st.set_page_config(page_title="Raj Webpage", page_icon=":tada:", layout="wide")
-
-#importing animations without json
-dotlottie_file_path = 'https://lottie.host/5bbd35b9-6047-44d5-b2cc-bd4da907da0a/xUb5gtrDEa.lottie'
-
 
 
 # Use local CSS
@@ -48,7 +44,7 @@ with st.container():
     )
     		st.write("[LinkedIn>](https://www.linkedin.com/in/rajashekar-m-1739501b1)")
 	with col2:
-		st_lottie(url_json, height = 500)
+		st_lottie(lottie_hello, key="hello", height = 50)
 
 # ---- WHAT I DO ----
 with st.container():
