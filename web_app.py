@@ -45,7 +45,7 @@ with st.container():
     )
     		st.write("[LinkedIn>](https://www.linkedin.com/in/rajashekar-m-1739501b1)")
 	with col2:
-		st_lottie(url_json)
+		st_lottie(url_json, height = 400)
 
 # ---- WHAT I DO ----
 with st.container():
