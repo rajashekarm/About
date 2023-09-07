@@ -49,7 +49,7 @@ with st.container():
 # ---- WHAT I DO ----
 with st.container():
 	col3, col4 = st.columns(2)
-	with col1:
+	with col3:
 		st.write("---")
 		st.header("Positions of Responsibility")
 		st.write("##")
@@ -82,7 +82,7 @@ with st.container():
          
             """
         )
-	with col2:
+	with col4:
 		st.empty()
 
 
