@@ -141,5 +141,5 @@ with st.container():
     with st.container():
         st.write("[Insta>](https://www.instagram.com/its_rajshekar_m/)")
         st.write("That's all for now :)")
-	st_lottie(lottie_thanks, height = 500)
+st_lottie(lottie_thanks, height = 500)
 
