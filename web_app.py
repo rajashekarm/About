@@ -36,7 +36,7 @@ local_css("style.css")
 
 # ---- HEADER SECTION ----
 with st.container():
-	col1, col2 = st.coloumns(2)
+col1, col2 = st.coloumns(2)
 with col1:
     	st.subheader("Hey!:wave:, I am Raj 🙌")
     	st.header(" An Aspiring Python developer ")
