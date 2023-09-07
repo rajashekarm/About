@@ -35,7 +35,7 @@ local_css("style.css")
 
 # ---- HEADER SECTION ----
 with st.container():
-	col1, col2, col5 = st.columns(2)
+	col1, col2, col5 = st.columns(3)
 	with col1:
 		st_lottie(lottie_hello, key="hello", height = 500)
 	with col2,  col5:
