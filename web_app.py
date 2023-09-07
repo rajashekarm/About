@@ -44,7 +44,7 @@ with col1:
 " With a hardworking and productive attitude, I am constantly seeking opportunities to learn and grow. As the chairperson of a student club, I have gained invaluable experience in leadership, teamwork, and communication - skills that I believe will be essential in any future role. "
     )
     	st.write("[LinkedIn>](https://www.linkedin.com/in/rajashekar-m-1739501b1)")
-	with col2:
+with col2:
 		st_lottie(url_json)
 
 # ---- WHAT I DO ----
