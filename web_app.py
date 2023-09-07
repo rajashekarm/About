@@ -84,7 +84,7 @@ with st.container():
             """
         )
 	with col2:
-		.empty()
+		empty()
 
 
 # ---- PROJECTS ----
