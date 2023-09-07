@@ -11,9 +11,10 @@ def load_lottieurl(url: str):
     return r.json()
 lottie_url_hello = "https://lottie.host/2bfe8b88-fdbb-45e6-b264-0fdb30e41f77/DZh1HyrsIZ.json"
 lottie_url_POR = "https://lottie.host/2ac8c67b-de3b-4ec1-bf19-785012bce0c4/A1sdzWFSTL.json"
+lottie_url_thanks = "https://lottie.host/83264c56-c31f-4f6d-99fd-70b7ead6d569/a3ikRVPaTm.json"
 lottie_hello = load_lottieurl(lottie_url_hello)
 lottie_POR = load_lottieurl(lottie_url_POR)
-
+lottie_thanks = load_lottieurl(lottie_url_thanks)
 
 
 
@@ -140,4 +141,5 @@ with st.container():
     with st.container():
         st.write("[Insta>](https://www.instagram.com/its_rajshekar_m/)")
         st.write("That's all for now :)")
+	st_lottie(lottie_thanks, height = 500)
 
