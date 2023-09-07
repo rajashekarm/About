@@ -37,7 +37,7 @@ local_css("style.css")
 with st.container():
 	col1, col2, col5 = st.columns(3)
 	with col1:
-		st_lottie(lottie_hello, key="hello", height = 500)
+		st_lottie(lottie_hello, key="hello", height = 200, width = 200)
 	with col2,  col5:
     		st.subheader("Hey!:wave:, I am Raj 🙌")
     		st.header(" An Aspiring Python developer ")
