@@ -39,13 +39,13 @@ with st.container():
 	col1, col2, col5 = st.columns(3)
 	with col1:
 		st_lottie(lottie_hello, key="hello", height = 300, width = 400)
-		st.write("[LinkedIn>](https://www.linkedin.com/in/rajashekar-m-1739501b1)")
 		
 	with col2,  col5:
     		st.subheader("Hey!:wave:, I am Raj 🙌")
     		st.header(" An Aspiring Python developer ")
     		st.write(
 " With a hardworking and productive attitude, I am constantly seeking opportunities to learn and grow. As the chairperson of a student club, I have gained invaluable experience in leadership, teamwork, and communication - skills that I believe will be essential in any future role. "
+			"[LinkedIn>](https://www.linkedin.com/in/rajashekar-m-1739501b1)"
 	) 	st.write("[LinkedIn>](https://www.linkedin.com/in/rajashekar-m-1739501b1)")
 				
 
