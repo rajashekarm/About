@@ -4,15 +4,18 @@ from streamlit_lottie import st_lottie
 from PIL import Image
 
 #function to get online json animation
-url = requests.get(
-	"https://lottie.host/5e3a65e8-9118-4eb8-9a09-4e211003a6b3/C83zLG4OD1.json")
-# Creating a blank dictionary to store JSON file, as their structure is similar to Python Dictionary
-url_json = dict()
+def load_lottieurl(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+lottie_url_hello = "https://assets5.lottiefiles.com/packages/lf20_V9t630.json"
+lottie_url_download = "https://assets4.lottiefiles.com/private_files/lf30_t26law.json"
+lottie_hello = load_lottieurl(lottie_url_hello)
+lottie_download = load_lottieurl(lottie_url_download)
 
-if url.status_code == 200:
-	url_json = url.json()
-else:
-	print("Error in the URL")
+
+st_lottie(lottie_hello, key="hello")
 
         
 
