@@ -96,6 +96,7 @@ with st.container():
         st.write(
             """
         1. [Cricket Outcome Predictor: Unveiling Victory with Machine Learning](https://victory-predictor-raj.streamlit.app):
+	
 		* Developed a machine learning-based Victory Predictor application for IPL matches.
         	* Utilized Python, Streamlit, and Scikit-Learn for project development.
         	* Predicted winning probabilities for IPL teams using logistic regression.
