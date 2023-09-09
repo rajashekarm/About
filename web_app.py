@@ -36,11 +36,11 @@ local_css("style.css")
 
 # ---- HEADER SECTION ----
 with st.container():
-	col1, col2 = st.columns(2)
+	col1, col2, col5, col6 = st.columns(4)
 	with col1:
 		st_lottie(lottie_hello, key="hello", height = 300, width = 400)
 		
-	with col2:
+	with col2, col5, col6:
     		st.subheader("Hey!:wave:, I am Raj 🙌")
     		st.header(" An Aspiring Python developer ")
     		st.write(
