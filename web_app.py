@@ -1,7 +1,7 @@
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
-from PIL import Image
+
 
 #function to get online json animation
 def load_lottieurl(url: str):
@@ -17,10 +17,6 @@ lottie_POR = load_lottieurl(lottie_url_POR)
 lottie_thanks = load_lottieurl(lottie_url_thanks)
 
 
-
-        
-
-# Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 
 st.set_page_config(page_title="Raj Webpage", page_icon=":tada:", layout="wide")
 
@@ -107,8 +103,11 @@ with st.container():
         * Conducted data preprocessing and deployed the application successfully.
 
         2.Battery management and diagnostic system
-        * Conducted extensive research on state of charge (SoC) and health(SoH), cell balancing, and other relevant topics
-            Working on Active cell balancing circuit for BMS
+        * Developed a Battery Measurement, Protection, and Charging Circuitry System.
+	* Objective: Accurate battery measurement, overcharge/over-discharge protection, and optimized charging.
+	* Achieved precise voltage and current monitoring for battery health.
+	* Implemented safeguards against overcharging and over-discharging.
+	* Utilized charging algorithms and control logic for efficient energy transfer.
             
         2.Arduino based Morse Code Generator for Encoded communication
         * A mini project to encode any character in two different durations of signals called Dots and Dashes which can be used in
