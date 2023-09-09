@@ -92,7 +92,7 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))
    
-    with text_column:
+    #with text_column:
         st.write(
             """
         1. Cricket Outcome Predictor: Unveiling Victory with Machine Learning:
