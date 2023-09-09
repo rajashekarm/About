@@ -61,23 +61,23 @@ with st.container():
     
     2. Global SAC Volunteer- IEEE Society on Social Implications of Technology
     
-    * Responsible for the smooth conduction of events.
+    	* Responsible for the smooth conduction of events.
          
     3. Secretary of School Union while in 7th class(2014-15)
     
-    * Won my first ever election and was responsible for arranging School assembly every day.
+    	* Won my first ever election and was responsible for arranging School assembly every day.
          
     4. Co-ordinator in PhaseShift- BMSCE's annual tech symposium
     
-    * Conducted an exciting event called 'Big Daddy', where each and every participant had fun.
+    	* Conducted an exciting event called 'Big Daddy', where each and every participant had fun.
          
     5. Member of Power sub-system at Upagraha- The Satellite club of BMSCE
     
-    * Responsible for the battery charging control circuit in the sub-system.
+    	* Responsible for the battery charging control circuit in the sub-system.
          
     6. Member at EV Bullz Racing- Formula student club of BMSCE
     
-    * Responsible for building the Battery Management System.
+    	* Responsible for building the Battery Management System.
          
             """
         )
@@ -95,21 +95,21 @@ with st.container():
     with text_column:
         st.write(
             """
-        1.[Cricket Outcome Predictor: Unveiling Victory with Machine Learning](https://victory-predictor-raj.streamlit.app):
+        1. [Cricket Outcome Predictor: Unveiling Victory with Machine Learning](https://victory-predictor-raj.streamlit.app):
         	* Developed a machine learning-based Victory Predictor application for IPL matches.
         	* Utilized Python, Streamlit, and Scikit-Learn for project development.
         	* Predicted winning probabilities for IPL teams using logistic regression.
         	* Designed an interactive and visually appealing user interface.
         	* Conducted data preprocessing and deployed the application successfully.
-
-        2. Battery management and diagnostic system
+	 
+	2. Battery management and diagnostic system
         	* Developed a Battery Measurement, Protection, and Charging Circuitry System.
 		* Objective: Accurate battery measurement, overcharge/over-discharge protection, and optimized charging.
 		* Achieved precise voltage and current monitoring for battery health.
 		* Implemented safeguards against overcharging and over-discharging.
 		* Utilized charging algorithms and control logic for efficient energy transfer.
             
-        3. Arduino based Morse Code Generator for Encoded communication
+	3. Arduino based Morse Code Generator for Encoded communication
         	* A mini project to encode any character in two different durations of signals called Dots and Dashes which can be used in Defense and other sectors
             """
         )
