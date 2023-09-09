@@ -102,7 +102,8 @@ with st.container():
         	* Designed an interactive and visually appealing user interface.
         	* Conducted data preprocessing and deployed the application successfully.
 	 
-	2. Battery management and diagnostic system.
+	2. Battery management and diagnostic system:
+ 
         	* Developed a Battery Measurement, Protection, and Charging Circuitry System.
 		* Objective: Accurate battery measurement, overcharge/over-discharge protection, and optimized charging.
 		* Achieved precise voltage and current monitoring for battery health.
