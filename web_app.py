@@ -92,37 +92,37 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))
    
-    #with text_column:
-        st.write(
+# with text_column:
+    st.write(
             """
-        1. Cricket Outcome Predictor: Unveiling Victory with Machine Learning:
+1. Cricket Outcome Predictor: Unveiling Victory with Machine Learning:
 	
-		* Developed a machine learning-based Victory Predictor application for IPL matches
+	* Developed a machine learning-based Victory Predictor application for IPL matches
   
-        	* Utilized Python, Streamlit, and Scikit-Learn for project development
+        * Utilized Python, Streamlit, and Scikit-Learn for project development
 	 
-        	* Predicted winning probabilities for IPL teams using logistic regression
+        * Predicted winning probabilities for IPL teams using logistic regression
 	 
-        	* Designed an interactive and visually appealing user interface
+        * Designed an interactive and visually appealing user interface
 	 
-        	* Conducted data preprocessing and deployed the application successfully
+        * Conducted data preprocessing and deployed the application successfully
 	 
 	 
-	2. Battery management and diagnostic system:
+2. Battery management and diagnostic system:
  
-		* Developed a Battery Measurement, Protection, and Charging Circuitry System.
+	* Developed a Battery Measurement, Protection, and Charging Circuitry System.
   
-		* Objective: Accurate battery measurement, overcharge/over-discharge protection, and optimized charging.
+	* Objective: Accurate battery measurement, overcharge/over-discharge protection, and optimized charging.
   
-		* Achieved precise voltage and current monitoring for battery health.
+	* Achieved precise voltage and current monitoring for battery health.
   
-		* Implemented safeguards against overcharging and over-discharging.
+	* Implemented safeguards against overcharging and over-discharging.
   
-		* Utilized charging algorithms and control logic for efficient energy transfer.
+	* Utilized charging algorithms and control logic for efficient energy transfer.
             
-	3. Arduino-based Morse Code Generator for Encoded communication.
+3. Arduino-based Morse Code Generator for Encoded communication.
  
- 		* A mini project to encode any character in two different durations of signals called Dots and Dashes which can be used in Defense and other sectors
+ 	* A mini project to encode any character in two different durations of signals called Dots and Dashes which can be used in Defense and other sectors
             """
         )
        
