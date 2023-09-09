@@ -139,7 +139,7 @@ with st.container():
     with left_column:
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
-        st_lottie(lottie_thanks, height = 500, 700)
+        st_lottie(lottie_thanks, height = 500, width= 700)
     with st.container():
         st.write("[Insta>](https://www.instagram.com/its_rajshekar_m/)")
         st.write("That's all for now :)")
