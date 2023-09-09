@@ -99,13 +99,13 @@ with st.container():
 	
 	* Developed a machine learning-based Victory Predictor application for IPL matches
         
-	* Utilized Python, Streamlit, and Scikit-Learn for project development
-	 
-        * Predicted winning probabilities for IPL teams using logistic regression
-	 
-        * Designed an interactive and visually appealing user interface
-	 
-        * Conducted data preprocessing and deployed the application successfully
+	* Utilized Python, Streamlit, and Scikit-Learn for project development	 
+        
+	* Predicted winning probabilities for IPL teams using logistic regression	 
+        
+	* Designed an interactive and visually appealing user interface	 
+        
+	* Conducted data preprocessing and deployed the application successfully
 	 
 	 
 2. Battery management and diagnostic system:
