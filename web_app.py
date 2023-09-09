@@ -18,7 +18,7 @@ lottie_thanks = load_lottieurl(lottie_url_thanks)
 
 
 
-st.set_page_config(page_title="Raj Webpage", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="Raj Webpage", layout="wide")
 
 
 # Use local CSS
