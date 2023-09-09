@@ -95,7 +95,7 @@ with st.container():
 # with text_column:
     st.write(
             """
-1. Cricket Outcome Predictor: Unveiling Victory with Machine Learning:[link](https://victory-predictor-raj.streamlit.app)
+1. [Cricket Outcome Predictor: Unveiling Victory with Machine Learning:](https://victory-predictor-raj.streamlit.app)
 	
 	* Developed a machine learning-based Victory Predictor application for IPL matches
         
