@@ -103,8 +103,7 @@ with st.container():
         	* Conducted data preprocessing and deployed the application successfully.
 	 
 	2. Battery management and diagnostic system:
- 
-        	* Developed a Battery Measurement, Protection, and Charging Circuitry System.
+		* Developed a Battery Measurement, Protection, and Charging Circuitry System.
 		* Objective: Accurate battery measurement, overcharge/over-discharge protection, and optimized charging.
 		* Achieved precise voltage and current monitoring for battery health.
 		* Implemented safeguards against overcharging and over-discharging.
