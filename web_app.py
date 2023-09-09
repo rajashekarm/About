@@ -109,8 +109,8 @@ with st.container():
 		* Implemented safeguards against overcharging and over-discharging.
 		* Utilized charging algorithms and control logic for efficient energy transfer.
             
-	3. Arduino based Morse Code Generator for Encoded communication
-        	* A mini project to encode any character in two different durations of signals called Dots and Dashes which can be used in Defense and other sectors
+	3. Arduino-based Morse Code Generator for Encoded communication.
+ 		* A mini project to encode any character in two different durations of signals called Dots and Dashes which can be used in Defense and other sectors
             """
         )
        
