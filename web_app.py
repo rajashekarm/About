@@ -123,7 +123,8 @@ with st.container():
     st.header("Get In Touch With Me!")
     st.write("##")
 
-    # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
+    # Documention: https://formsubmit.co/email
+	
     contact_form = """
     <form action="https://formsubmit.co/rajashekarm2003@gmail.com" method= "Post">
         <input type="hidden" name="_captcha" value="false">
@@ -133,6 +134,7 @@ with st.container():
         <button type="submit">Send</button>
     </form>
     """
+	
     left_column, right_column = st.columns(2)
     with left_column:
         st.markdown(contact_form, unsafe_allow_html=True)
