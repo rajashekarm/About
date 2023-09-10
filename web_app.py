@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 
 # configure webpage
-st.set_page_config(page_title="Raj's Portfolio", layout="wide", initial_sidebar_state="auto")
+st.set_page_config(page_title="Raj's Portfolio", layout="wide", initial_sidebar_state="auto", menu_items=None)
 
 
 # Use local CSS
