@@ -52,10 +52,10 @@ with st.container():
 	with col3:
 		st.write("---")
 		st.header("Positions of Responsibility")
+		st.header("1. Software Development Intern at Everest IMS (Feb 2024 - present) ")
 		st.write("##")
 		st.write(
             """
-1.Software Development Intern at Everest IMS (Feb 2024 - present)
 * Techs: Python, FastAPI, REST API
     1. Founding Chairperson- IEEE Society on Social Implications of Technology, BMSCE (Nov 2022 - March '23)
     
