@@ -55,6 +55,8 @@ with st.container():
 		st.write("##")
 		st.write(
             """
+1.Software Development Intern at Everest IMS (Feb 2024 - present)
+* Techs: Python, FastAPI, REST API
     1. Founding Chairperson- IEEE Society on Social Implications of Technology, BMSCE (Nov 2022 - March '23)
     
         * Presided a team of around more than 30 members in organizing about 12+ events in 5 months.
