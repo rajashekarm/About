@@ -17,10 +17,14 @@ local_css("style.css")
 
 #function to get online json animation
 def load_lottieurl(url: str):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
+    try:
+        r = requests.get(url)
+        if r.status_code == 200:
+            return r.json()
+    except requests.exceptions.RequestException as e:
+        print(f"Request failed: {e}")
+    return None
+
 lottie_url_hello = "https://lottie.host/2bfe8b88-fdbb-45e6-b264-0fdb30e41f77/DZh1HyrsIZ.json"
 lottie_url_POR = "https://lottie.host/2ac8c67b-de3b-4ec1-bf19-785012bce0c4/A1sdzWFSTL.json"
 lottie_url_thanks = "https://lottie.host/83264c56-c31f-4f6d-99fd-70b7ead6d569/a3ikRVPaTm.json"
